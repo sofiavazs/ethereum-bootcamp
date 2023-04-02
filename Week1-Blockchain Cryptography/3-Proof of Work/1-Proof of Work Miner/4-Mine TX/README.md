@@ -10,3 +10,9 @@ Inside the mine function, pull transactions off the mempool and include them in 
 Remove each transaction you include in the block from the mempool
 Add the transactions array to the block before hashing the block
 ⚠️ Do not include more transactions in the block than the `MAX_TRANSACTIONS` limit.
+
+# 🧪 How to test
+
+```
+npm test
+```
