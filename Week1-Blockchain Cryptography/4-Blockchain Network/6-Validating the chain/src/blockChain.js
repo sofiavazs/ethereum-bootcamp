@@ -1,4 +1,4 @@
-const Block = require("./Block");
+const Block = require("./block");
 const SHA256 = require("crypto-js/sha256");
 
 class Blockchain {
@@ -27,3 +27,4 @@ class Blockchain {
     return isChainValid;
   }
 }
+module.exports = Blockchain;
