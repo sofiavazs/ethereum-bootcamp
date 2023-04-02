@@ -1,0 +1,14 @@
+node_modules
+
+.DS_Store
+*.lock
+*.env
+.env.local
+*.log
+
+package-lock.json
+
+coverage
+coverage.json
+typechain
+typechain-types
