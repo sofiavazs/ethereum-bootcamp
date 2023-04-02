@@ -7,7 +7,10 @@ class Blockchain {
     this.chain = [genesis];
   }
   addBlock(block) {
-    this.chain = [...this.chain, block];
+    let chainIndex = this.chain.length - 1;
+    const previousBlock = this.chain[chainIndex];
+    block.previousHash = previousBlock.toHash();
+    this.chain.push(block);
   }
 }
 
