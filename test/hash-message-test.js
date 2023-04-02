@@ -1,4 +1,4 @@
-const hashMessage = require("../Week1-Blockchain Cryptography/Digital Signatures/1-Public Key Exercise/1-Hash message/src/hashMessage");
+const hashMessage = require("../Week1-Blockchain Cryptography/2-Digital Signatures/1-Public Key Exercise/1-Hash message/src/hashMessage");
 const { assert } = require("chai");
 const { toHex } = require("ethereum-cryptography/utils");
 

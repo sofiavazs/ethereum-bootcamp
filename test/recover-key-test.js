@@ -1,5 +1,5 @@
-const signMessage = require("../Week1-Blockchain Cryptography/Digital Signatures/1-Public Key Exercise/2-Sign message/src/signMessage");
-const recover = require("../Week1-Blockchain Cryptography/Digital Signatures/1-Public Key Exercise/3-Recover Key/src/recoverKey");
+const signMessage = require("../Week1-Blockchain Cryptography/2-Digital Signatures/1-Public Key Exercise/2-Sign message/src/signMessage");
+const recover = require("../Week1-Blockchain Cryptography/2-Digital Signatures/1-Public Key Exercise/3-Recover Key/src/recoverKey");
 const secp = require("ethereum-cryptography/secp256k1");
 const { assert } = require("chai");
 const { toHex } = require("ethereum-cryptography/utils");

@@ -1,4 +1,4 @@
-const getAddress = require("../Week1-Blockchain Cryptography/Digital Signatures/1-Public Key Exercise/4-Key to address/src/getAddress");
+const getAddress = require("../Week1-Blockchain Cryptography/2-Digital Signatures/1-Public Key Exercise/4-Key to address/src/getAddress");
 const secp = require("ethereum-cryptography/secp256k1");
 const { assert } = require("chai");
 const { toHex } = require("ethereum-cryptography/utils");
