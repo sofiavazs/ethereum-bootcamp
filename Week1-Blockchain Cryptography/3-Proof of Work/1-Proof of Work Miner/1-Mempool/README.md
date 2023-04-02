@@ -11,3 +11,9 @@ Typically, the miner will take all the transactions with the highest transaction
 Your goal is to implement the `addTransaction` function, which adds transactions to the mempool.
 
 Take the transaction sent to the function and push it on top of the mempool array.
+
+# 🧪 How to test
+
+```
+npm test
+```
